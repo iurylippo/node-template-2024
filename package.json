@@ -15,7 +15,7 @@
   "description": "",
   "devDependencies": {
     "@eslint/js": "^9.6.0",
-    "@tsconfig/node20": "^20.1.4",
+    "@tsconfig/node18": "^18.2.4",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.10",
     "dotenv-cli": "^7.4.2",
@@ -29,10 +29,14 @@
     "prettier": "3.3.2",
     "ts-jest": "^29.1.5",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.3",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "5.5.3",
     "typescript-eslint": "^7.16.0"
   },
   "overrides": {
     "eslint": "^9.6.0"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2"
   }
 }

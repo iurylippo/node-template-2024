@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9230:9230"   # Porta para debugging
+    env_file:
+      - .env
+    volumes:
+      - .:/app                # Monta o volume para que as mudanças locais reflitam no container
+      - /app/node_modules     # Ignora node_modules do host para evitar conflitos
+    command: yarn dev

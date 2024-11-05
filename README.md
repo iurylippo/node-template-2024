@@ -1,1 +1,1 @@
-# Template for Node.js Project
+# Template for Node.js V18 + Eslint + Prettier + Import Alias Project
